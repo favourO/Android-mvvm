@@ -1,0 +1,29 @@
+<resources>
+    <string name="app_name">Giro</string>
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+    <string name="nav_header_title">Android Studio</string>
+    <string name="nav_header_subtitle">android.studio@android.com</string>
+    <string name="nav_header_desc">Navigation header</string>
+    <string name="action_settings">Settings</string>
+
+    <string name="menu_home">Home</string>
+    <string name="menu_gallery">Gallery</string>
+    <string name="menu_slideshow">Slideshow</string>
+    <string name="login_text">Login</string>
+    <string name="username_text">Username</string>
+    <string name="email_address_string">Email Address</string>
+    <string name="phone_number_string">Phone Number</string>
+    <string name="password_txt">Password</string>
+    <string name="buy">buyer</string>
+    <string name="sell">merchant</string>
+
+    <string-array name="role">
+        <item>buyer</item>
+        <item>merchant</item>
+    </string-array>
+
+    <string name="verify_text">Enter the Verification code sent to your email</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+</resources>

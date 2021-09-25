@@ -1,0 +1,44 @@
+<resources xmlns:tools="http://schemas.android.com/tools">
+    <!-- Base application theme. -->
+    <style name="Theme.Giro" parent="Theme.MaterialComponents.DayNight.NoActionBar">
+        <!-- Primary brand color. -->
+        <item name="colorPrimary">@color/primary_color</item>
+        <item name="colorPrimaryVariant">@color/primary_color</item>
+        <item name="colorOnPrimary">@color/white</item>
+        <!-- Secondary brand color. -->
+        <item name="colorSecondary">@color/Secondary_color</item>
+        <item name="colorSecondaryVariant">@color/Secondary_color</item>
+        <item name="colorOnSecondary">@color/black</item>
+        <!-- Status bar color. -->
+        <item name="android:statusBarColor" tools:targetApi="l">?attr/colorPrimaryVariant</item>
+        <!-- Customize your theme here. -->
+        <!-- Font Path. -->
+
+        <item name="fontPath">fonts/montserrat/Montserrat-Regular.ttf</item>
+
+        <item name="android:textColor">@color/primary_color</item>
+        <item name="android:textSize">12sp</item>
+        <item name="actionOverflowButtonStyle">@style/DotsDarkTheme</item>
+        <item name="drawerArrowStyle">@style/DrawerHamburgerStyle</item>
+    </style>
+    <style name="DotsDarkTheme" parent="@style/Widget.AppCompat.ActionButton.Overflow" >
+        <item name="android:tint">@color/primary_color</item>
+    </style>
+    <style name="font" parent="@style/Widget.AppCompat.TextView" >
+        <item name="fontPath">fonts/montserrat/Montserrat-Regular.ttf</item>
+    </style>
+
+    <style name="DrawerHamburgerStyle" parent="@style/Widget.AppCompat.DrawerArrowToggle">
+        <item name="spinBars">true</item>
+        <item name="color">@color/primary_color</item>
+    </style>
+
+    <style name="Theme.Giro.NoActionBar">
+        <item name="windowActionBar">false</item>
+        <item name="windowNoTitle">true</item>
+    </style>
+
+    <style name="Theme.Giro.AppBarOverlay" parent="ThemeOverlay.AppCompat.Dark.ActionBar" />
+
+    <style name="Theme.Giro.PopupOverlay" parent="ThemeOverlay.AppCompat.Light" />
+</resources>

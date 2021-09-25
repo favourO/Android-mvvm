@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="primary_color">#de6704</color>
+    <color name="Secondary_color">#FAFAFB</color>
+    <color name="tint">#df7714</color>
+    <color name="formal">#e4b290</color>
+    <color name="informal">#FF018786</color>
+    <color name="black">#FF000000</color>
+    <color name="white">#FFFFFFFF</color>
+    <color name="purple_700">#de6704</color>
+    <color name="teal_200">#df7714</color>
+    <color name="purple_200">#FF018786</color>
+</resources>
